@@ -408,11 +408,14 @@
           <form class="footer-form">
               <input class="footer-input" type="email">
               <button class="footer-submit" type="submit">Subscribe</button>
+              <svg class="footer-icon-sent" width="24px" height="24px">
+              <use href="./img/sprite.svg#icon-icon-send"></use>
+              </svg>
           </form>
       </div>
     </footer>
 
-    <div data-modal class="backdrop">
+    <div data-modal class="backdrop is-hidden">
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close-btn-icon" width="18px" height="18px">
@@ -497,7 +500,7 @@
                 </span>
                 I agreed to Terms and Conditions and Data Policy
               </label>
-              <button class="contact-button" type="button" data-modal-open>Contact Me</button>
+              <button class="contact-button" type="button" data-modal-open>Send</button>
             </div>
           </div>
         </div>

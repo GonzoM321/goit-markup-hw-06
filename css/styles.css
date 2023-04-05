@@ -1230,6 +1230,7 @@ margin-bottom: 30px;
   width: 528px;
   min-height: 581px;
   background-color: white;
+  border-radius: 4px;
   top: 50%;
   padding: 40px;
   left: 50%;
@@ -1399,6 +1400,8 @@ fill: currentColor;
 }
 
 .footer-formSection{
+
+  
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -1416,6 +1419,8 @@ text-transform: uppercase;
   color: white;
   width: 200px;
   height: 50px;
+  font-family: 'Roboto';
+  font-size: 16px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1427,25 +1432,26 @@ text-transform: uppercase;
 
 
 .footer-icon-sent{
-  position: absolute;
+  position: relative;
   left: 83.31%;
   right: 15.19%;
   margin-top: 30px;
-  margin-left: -120px;
+  margin-left: -300px;
   color: white;
   fill: white;
   
 }
 
 .modal-text{
-  font-family: 'Poppins';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 23px;
 text-align: center;
 letter-spacing: 0.03em;
-
+  
+color: #212121;
 }
 
 .modal-form-field{
@@ -1453,14 +1459,14 @@ letter-spacing: 0.03em;
 }
 
 .modal-label{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: calc(18/12);
-  color: var(--secondary-text-color);
-  display: block;
-  margin-bottom: 8px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+
+color: #757575;
 }
 
 .input-wrapper{
@@ -1527,16 +1533,6 @@ letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
-
-/* .modal-input:focus{
-  border-color: var(--accent-color);
-  outline: none;
-  color: var(--accent-color);
-  font-weight: 400;
-  font-size: 13px;
-  line-height: calc(20/13); 
-} */
-
 .modal-comments:focus{
   border-color: var(--accent-color);
   outline: none;
@@ -1578,6 +1574,12 @@ color: var(--secondary-text-color);
 }
 
 .contact-button{
+  position: relative;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 712px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -1586,12 +1588,15 @@ color: var(--secondary-text-color);
   letter-spacing: 0.06em;
   color: var(--light-bg-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 20px;
   cursor: pointer;
   border: none;
   margin: 0 auto;
   display: block;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .backdrop{

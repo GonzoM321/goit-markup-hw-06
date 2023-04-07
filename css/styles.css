@@ -1464,7 +1464,8 @@ font-weight: 400;
 font-size: 12px;
 line-height: 14px;
 letter-spacing: 0.01em;
-
+display: block;
+margin-bottom: 4px;
 color: #757575;
 }
 
@@ -1476,7 +1477,7 @@ color: #757575;
 .modal-input{
   border: 1px solid var(--secondary-text-color);
   border-radius: 9px;
-  height: 50px;
+  height: 40px;
   width: 100%;
   resize: none;
   cursor: pointer;
@@ -1503,7 +1504,7 @@ color: #757575;
 
 .modal-icon{
   position: absolute;
-  top: 16px;
+  top: 12px;
   left: 12px;
   fill: var(--primary-text-color);
 }
@@ -1546,10 +1547,10 @@ color: #757575;
   height: 15px;
   border: 1px solid var(--primary-text-color);
   border-radius: 4px;
-
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 7px;
 }
 
 .checkbox-text{
@@ -1558,9 +1559,11 @@ color: #757575;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .checkbox-icon{
